@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #c79288;
+    --brown: #625448;
+    --gray: #e6e4e8;
+    --blue: #c1c9d7;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+body {
+    font-family: 'Bodoni Moda', serif;
+    background-color: #f9f5f1;
+
+}
+
+/* ----------------------- HEADER STYLING ---------------------- */
+.header {
+    background-color: var(--blue);
+    height: 85px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color:#c79288 */
+}
+
+.header-links li {
+    float: left;
+}
+
+.header-links li a {
+    display: block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.header a:hover {
+    background-color: var(--pink);
+    color: white;
+    border: 2px solid var(--pink);
+    border-radius: 45px;
+}
+
+h1,
+h2 {
+    color: var(--pink);
+    /* text-decoration: underline; */
+    border: 2px solid var(--pink);
+    border-radius: 55px;
+    width:fit-content;
+    padding: 15px;
+}
+
+/* ----------------------- FOOTER STYLING ---------------------- */
+
+.footer {
+    background-color: var(--blue);
+    height: 200px;
+}
